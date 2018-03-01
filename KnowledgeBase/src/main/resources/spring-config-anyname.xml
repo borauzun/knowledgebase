@@ -1,0 +1,12 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="myCar1" class="nmfs.spring.beans.Car">
+		<property name="made" value="BMW" />
+	</bean>
+    <bean id="myBike1" class="nmfs.spring.beans.Bike"></bean>
+   <!-- <context:component-scan base-package="nmfs.spring.beans"></context:component-scan>  --> 
+   
+</beans>
